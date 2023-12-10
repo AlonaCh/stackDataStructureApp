@@ -26,7 +26,7 @@ function App() {
           <button onClick={pop}>Remove</button>
         </div>
         <div className='inputContainer'>
-          {stack.length < 0 ? <p>It is not a stack!</p> : stack.map((element) => <span className="hearts material-symbols-outlined" > heart_plus</span>)}
+          {stack.length < 0 ? <p>Ops!</p> : stack.map((element) => <span className="hearts material-symbols-outlined" > heart_plus</span>)}
         </div>
       </div>
     </>
